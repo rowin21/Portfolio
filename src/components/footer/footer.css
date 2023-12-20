@@ -1,0 +1,19 @@
+footer {
+    background: var(--color-primary);
+    padding: 1.5rem 1rem;
+    text-align: left;
+    margin-top: 3rem;
+    height: 290px;
+}
+
+footer li {
+    color: var(--color-bg);
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        width:auto ;
+        height:350px;
+        
+    }
+}
